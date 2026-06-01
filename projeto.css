@@ -216,15 +216,21 @@ aside > ol {
 } 
 
 div#motivo {
-    background-color: #3d0606;
-    margin-bottom: 0px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 10px;
+    background-color: var(--cor5);
+    margin-bottom: 15px;
+    margin: 0px -0px 10px 0px;
+    padding-bottom: 49%;
     position: relative;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
+div#motivo > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
 
 footer {
     background-color: var(--cor5);
